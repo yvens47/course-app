@@ -1,0 +1,307 @@
+.wrapper {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.add-button {
+  position: fixed;
+
+  right: 50px;
+  bottom: 150px;
+}
+.course-filter {
+  background: #d6d6d6;
+  height: 200px;
+}
+
+.course-lists {
+  width: 100%;
+}
+.aside-content {
+  width: 250px;
+  /* border-top: solid 3px; */
+  position: relative;
+}
+.aside-content-title {
+  font-weight: bold;
+  width: 100%;
+}
+.aside-content-focus {
+  color: #888484;
+  font-family: "Lato";
+  width: 100%;
+}
+
+.left-nav a {
+  color: #333;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.left-nav a:hover {
+  color: #888;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+}
+.left-nav a i {
+  padding: 0 10px 0 0;
+  color: #12b3ab;
+}
+.left-nav a:hover i {
+  padding: 0 10px 0 0;
+  color: #0d8b85;
+}
+.course-item {
+  width: 100%;
+
+  height: 400px;
+  box-shadow: 0px 1px #fff;
+
+  background-color: #f5f5f5;
+  border: 1px solid #f7f7f7;
+  padding: 0px;
+
+  cursor: pointer;
+  margin-bottom: 50px;
+  height: 390px;
+  position: relative;
+}
+
+.course-item img {
+  width: 100%;
+  border: solid 1px #eee;
+  height: 100%;
+}
+.course-cover-wrap {
+  width: 100%;
+}
+.course-detail {
+  width: 100%;
+  text-align: left;
+  padding: 30px;
+}
+.course-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+.course-title a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  color: #333;
+  text-decoration: none;
+}
+.course-title a:hover {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  color: #333;
+  text-decoration: none;
+}
+.course-title a:hover {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  color: #777;
+  text-decoration: none;
+}
+
+.course-text {
+  font-family: "Lato";
+}
+
+.cover-image img {
+  width: 100%;
+  height: 100%;
+
+  border: solid 1px #eee;
+}
+
+.course-view-detail h1 {
+  color: black;
+  font-family: Montserrat;
+  text-align: left;
+  margin: 10px 0 10px 0;
+  font-size: 25px;
+}
+.course-view-detail p {
+  color: black;
+  font-family: Lato;
+  text-align: left;
+}
+
+.course-type {
+  background: #f8f9fa;
+  min-width: 50px;
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  right: 0;
+}
+.course_prerequisites {
+  border-left: solid 5px #eee;
+}
+.course_prerequisites h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.42;
+  text-transform: uppercase;
+}
+.course-instructor-detail .title {
+  margin: 0 0 16px 0;
+  line-height: 1.42;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  -webkit-letter-spacing: 3px;
+  -moz-letter-spacing: 3px;
+  -ms-letter-spacing: 3px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.course_instructor_image img {
+  height: 90px;
+  width: 90px;
+  padding: 5px;
+  border: solid 1px #eee;
+}
+.course-instructor-detail .instructor-name {
+  padding-left: 10px;
+  line-height: 1;
+}
+.instructor-description {
+  line-height: 1;
+  padding-left: 10px;
+}
+.course-view-detail h2,
+h3 {
+  font-family: "Monserrat";
+  font-style: normal;
+  color: #777;
+}
+.course-view-detail p {
+  font-family: "Lato";
+  font-style: normal;
+}
+
+/* sider bar */
+.aside-bar {
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 15%) 0px 1px 4px 0px;
+  min-width: 330px;
+  padding-right: 10px;
+  position: relative;
+
+  transition: margin-left 0.25s ease-out 0s;
+}
+
+.siderbar {
+  padding: 32px 10px 0px 10px;
+  height: calc((100% - 50px) - 20px);
+}
+.course-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.course-content div {
+  align-items: center;
+  flex-basis: auto;
+  justify-content: space-between;
+}
+.course-content div:first-of-type {
+  font-weight: bold;
+  padding: 10px;
+}
+.course-content div:last-of-type {
+  text-align: right;
+}
+
+/* course overview page */
+.wrapper-course-overview {
+  background: #f1f1f1;
+  height: 100%;
+  width: 100%;
+}
+.overview {
+  background: white;
+}
+
+@media (max-width: 575.98px) {
+  .wrapper {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper aside {
+    display: none;
+  }
+  .filter-sort {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .filter-sort {
+    display: none;
+  }
+  .wrapper aside {
+    display: none;
+  }
+  .filter-sort-hide-high {
+    display: block;
+  }
+  /* .wrapper {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper aside {
+    display: none;
+  } */
+  /* .filter-sort-hide-high {
+    display: none;
+  } */
+}
+
+/* 
+
+// Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* .filter-sort-hide-high {
+    display: none;
+  } */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .wrapper aside {
+    display: block;
+  }
+  .filter-sort {
+    display: block;
+  }
+  .filter-sort-hide-high {
+    display: none;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

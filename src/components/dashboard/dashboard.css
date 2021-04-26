@@ -1,0 +1,104 @@
+.user-pic {
+  padding: 10px;
+  border: solid 1px #eee;
+  position: relative;
+}
+.dashboard-wrapper {
+  background: #f8f9fa;
+}
+.dashboard-wrapper h3 {
+  margin-top: 10px;
+}
+button.MuiButtonBase-root.MuiIconButton-root {
+  color: #fe7491;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: none;
+}
+.MuiPaper-root.p-3.MuiPaper-elevation3.MuiPaper-rounded {
+  margin-bottom: 10px;
+}
+.user-pic h4 {
+  font-size: 12px;
+  margin: 10px 0;
+  color: #3f51b5;
+  text-transform: capitalize;
+}
+
+/* sider bar */
+/* .aside-bar {
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px 0px;
+  min-width: 330px;
+  padding-right: 35px;
+  position: relative;
+  width: 330px;
+  transition: margin-left 0.25s ease-out 0s;
+} */
+
+.siderbar {
+  padding: 32px 8px 0px 32px;
+  height: calc((100% - 0px) - 32px);
+}
+
+/* sider bar */
+.aside-bar {
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 15%) 0px 1px 4px 0px;
+  min-width: 340px;
+  padding-right: 10px;
+  position: relative;
+
+  transition: margin-left 0.25s ease-out 0s;
+}
+
+.siderbar {
+  padding: 32px 10px 0px 10px;
+  height: calc((100% - 50px) - 20px);
+}
+.course-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.course-content div {
+  align-items: center;
+  flex-basis: auto;
+  justify-content: space-between;
+}
+.course-content div:first-of-type {
+  font-weight: bold;
+  padding: 10px;
+}
+.course-content div:last-of-type {
+  text-align: right;
+}
+.mycourse a {
+  color: #666;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  text-decoration: none;
+}
+
+.mycourse a:hover {
+  color: #777;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  text-decoration: none;
+}
+.mycourse p {
+  color: #999;
+}
+
+.upload-wrapper {
+  padding: 10px;
+  border: solid 1px #c7c7c7;
+  background: #f1f1f1;
+  position: relative;
+  height: 90px;
+}

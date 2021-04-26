@@ -1,0 +1,46 @@
+{
+  "name": "ap",
+  "version": "1.0.0",
+  "description": " STeaching Platform",
+  "author": "Jean Y. Pierre",
+  "keywords": ["react", "starter", "Teaching"],
+  "main": "src/index.js",
+  "dependencies": {
+    "@babel/runtime": "7.13.10",
+    "@material-ui/core": "4.11.3",
+    "@material-ui/icons": "5.0.0-alpha.1",
+    "@material-ui/lab": "4.0.0-alpha.57",
+    "@reduxjs/toolkit": "1.5.0",
+    "@scorum/react-timeago": "5.0.2",
+    "animate.css": "4.1.1",
+    "axios": "0.21.1",
+    "chart.js": "2.9.4",
+    "joi": "17.4.0",
+    "nl2br": "0.0.3",
+    "react": "17.0.1",
+    "react-chartjs-2": "2.11.1",
+    "react-dom": "17.0.1",
+    "react-redux": "7.2.2",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.0",
+    "react-simple-animate": "3.3.12",
+    "react-slick": "0.28.1",
+    "react-timeago": "5.2.0",
+    "react-toastify": "7.0.3",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "2.13.9",
+    "redux-thunk": "2.3.0",
+    "slick-carousel": "1.8.1",
+    "video-react": "0.14.1"
+  },
+  "devDependencies": {
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
